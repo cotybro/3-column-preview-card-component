@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![3-column preview card component](https://user-images.githubusercontent.com/36529826/120094573-afd64b80-c0e6-11eb-93d9-1a1e3ffc9cff.png)
+
 
 ### Links
 
