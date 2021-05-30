@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![3-column preview card component](https://user-images.githubusercontent.com/36529826/120094573-afd64b80-c0e6-11eb-93d9-1a1e3ffc9cff.png)
-
+![3-column preview card component](https://user-images.githubusercontent.com/36529826/120094649-3d19a000-c0e7-11eb-9a5b-e0570855f73f.png)
 
 ### Links
 
