@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: "Lexend Deca", serif;
+	font-weight: 400;
+	color: hsla(0, 0%, 100%, 0.75);
+	background: hsl(0, 0%, 95%);
+	margin: 1rem;
+}
+
+.body-text {
+	height: 125px;
+}
+
+/*---------------------Typography---------------------*/
+
+h1 {
+	font-size: 2.66rem;
+	font-family: 'Big Shoulders Display', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: hsl(0, 0%, 95%);
+}
+
+.btn {
+	background: hsl(0, 0%, 95%);
+	display: inline-block;
+	padding: 1rem 2.1rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 4rem;
+}
+
+.btn-sedan {
+	color: hsl(31, 77%, 52%);
+}
+
+.btn-sedan:hover,
+.btn-sedan:focus {
+	background: hsl(31, 77%, 52%);
+	color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 95%);
+}
+
+.btn-suvs {
+	color: hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover,
+.btn-suvs:focus {
+	background: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 95%);
+}
+
+.btn-luxury {
+	color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover,
+.btn-luxury:focus {
+	background: hsl(179, 100%, 13%);
+	color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 95%);
+}
+
+
+/*---------------------Layout---------------------*/
+
+main {
+	display: flex;
+	flex-direction: row;
+	max-width: 920px;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 10rem;
+}
+
+.sedans {
+	background: hsl(31, 77%, 52%);
+	border-top-left-radius: .5rem;
+	border-bottom-left-radius: .5rem;
+}
+
+.suvs {
+	background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+	background: hsl(179, 100%, 13%);
+	border-top-right-radius: .5rem;
+	border-bottom-right-radius: .5rem;
+	
+}
+
+.container {
+	width: 68%;
+	margin: 0 auto;
+	margin-top: 3rem;
+}
+
+@media (max-width: 692px) {
+	main {
+		flex-direction: column;
+		width: 327px;
+	}
+	
+	body {
+		height: 1500px;
+	}
+	
+	.sedans {
+		border-bottom-left-radius: 0;
+		border-top-right-radius: .5rem;
+	}
+	
+	.luxury {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: .5rem;
+	}
+	
+	.body-text {
+		margin-bottom: 0rem;
+	}
+	
+	.btn {
+		margin-top: 0;
+		margin-bottom: 2rem;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
