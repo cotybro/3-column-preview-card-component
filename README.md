@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/cotybro/3-column-preview-card-component/blob/main/index.html)
-- Live Site URL: [live site](https://3-column-preview-card-component-mu.vercel.app/)
+- Solution URL: [here](https://github.com/cotybro/3-column-preview-card-component/blob/main/index.html)
+- Live Site URL: [here](https://3-column-preview-card-component-mu.vercel.app/)
 
 ## My process
 
